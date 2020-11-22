@@ -1,3 +1,4 @@
+var giftList
 $(function () {
 
     $(".yesBtn").on("click", function () {
@@ -41,6 +42,31 @@ $(function () {
     //     console.log('gonna do it')
     //     $(this).closest('div').remove();
     // });
+    // $("#saveBtn").on("click", function() {
+    //     var searchValue = $("#yesList").val();
+    
+    //     // clear input box
+    //     $("#yesList").val("");
+    
+    //     searchWeather(searchValue);
+    //   });
+
+    // const gift = JSON.parse(window.localStorage.getItem("yesList")) || [];
+
+    // if (gift.indexOf(searchValue) === -1) {
+    //     gift.push(searchValue);
+    //     window.localStorage.setItem("yesList", JSON.stringify(gift));
+  
+    //     makeRow(searchValue);
+    //   }
+
+    // if (gift.length > 0) {
+    //     yeslist(gift[gift.length-1]);
+    //   }
+    
+    //   for (var i = 0; i < gift.length; i++) {
+    //     makeRow(gift[i]);
+    //   }
 
 
-})
+});
